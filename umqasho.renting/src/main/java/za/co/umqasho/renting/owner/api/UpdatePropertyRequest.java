@@ -7,7 +7,7 @@ public record UpdatePropertyRequest(
 
         @NotBlank
         @Size(max = 255)
-        String name,
+        String propertyName,
 
         @NotBlank
         @Size(max = 255)
