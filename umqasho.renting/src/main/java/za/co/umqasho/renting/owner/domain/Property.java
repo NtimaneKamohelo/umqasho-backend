@@ -119,13 +119,4 @@ public class Property {
         this.status = PropertyStatus.ARCHIVED;
     }
 
-
-
-
-
-
-
-
-
-
 }

@@ -102,7 +102,7 @@ public class AppUser {
         this.emailVerified = true;
     }
 
-    private static String normalizeEmail(String email){
+    public static String normalizeEmail(String email){
         return email == null
                 ? null
                 : email.trim().toLowerCase();

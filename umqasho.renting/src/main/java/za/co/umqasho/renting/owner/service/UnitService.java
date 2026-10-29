@@ -23,7 +23,7 @@ public class UnitService {
     public UnitService(
             CurrentUser currentUser,
             PropertyRepository propertyRepository,
-            UnitRepository unitRepository,
+            UnitRepository unitRepository
     ){
         this.currentUser = currentUser;
         this.propertyRepository = propertyRepository;

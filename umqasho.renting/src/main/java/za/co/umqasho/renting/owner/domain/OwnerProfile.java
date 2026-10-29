@@ -73,21 +73,13 @@ public class OwnerProfile {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public void update(
+            String businessName,
+            String phoneNumber
+    ){
+        this.businessName = businessName;
+        this.phoneNumber = phoneNumber;
+        this.updatedAt = OffsetDateTime.now(ZoneOffset.UTC);
+    }
 
 }
